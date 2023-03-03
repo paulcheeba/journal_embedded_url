@@ -1,0 +1,47 @@
+{
+	"id": "journal_embedded_url",
+	"title": "Journal Embedded Url",
+	"description": "Render a website within a journal page",
+	"version": "1.0",
+	"authors": [
+		{
+			"name": "Paulcheeba",
+		}
+	],
+	"keywords": [
+		"journal",
+	],
+	"readme": "README.md",
+	"license": "UNLICENSED",
+	"bugs": "",
+	"changelog": "",
+	"url": "",
+	"manifest": "",
+	"download": "",
+	"compatibility": {
+		"minimum": "10",
+		"verified": "10.291"
+	},
+	"socket": true,
+	"esmodules": [
+		"./js/Bundle.js"
+	],
+	"styles": [],
+	"packs": [],
+	"languages": [],
+	"relationships": {
+		"requires": [
+			{
+				"id": "lib-wrapper",
+				"type": "module",
+				"compatibility": {
+					"minimum": "1.12.5.0"
+				}
+			}
+		],
+		"conflicts": []
+	},
+	"flags": {
+		"attributions": ""
+	}
+}
