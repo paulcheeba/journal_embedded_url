@@ -1,34 +1,20 @@
 {
 	"id": "journal_embedded_url",
 	"title": "Journal Embedded Url",
-	"description": "Render a website within a journal page",
-	"version": "1.0",
-	"authors": [
-		{
-			"name": "Paulcheeba",
-		}
-	],
-	"keywords": [
-		"journal",
-	],
-	"readme": "README.md",
-	"license": "UNLICENSED",
-	"bugs": "",
-	"changelog": "",
-	"url": "",
-	"manifest": "https://github.com/paulcheeba/journal_embedded_url/releases/download/v0.1/module.json",
-	"download": "",
+	"description": "Render a website within a journal page.",
+	"authors": [{
+		"name": "Paulcheeba",
+		"url": "https://patreon.com/user?u=45257624",
+		"discord": "crusherDESTROYER#2881"
+	}],
+	"version": "0.1",
 	"compatibility": {
 		"minimum": "10",
-		"verified": "10.291"
+		"verified": "10"
 	},
-	"socket": true,
 	"esmodules": [
-		"./js/Bundle.js"
+		"./js/embeddedURL.js"
 	],
-	"styles": [],
-	"packs": [],
-	"languages": [],
 	"relationships": {
 		"requires": [
 			{
@@ -39,9 +25,12 @@
 				}
 			}
 		],
-		"conflicts": []
+	"conflicts": [],
+	"readme": "README.md",
+	"license": "UNLICENSED",
 	},
-	"flags": {
-		"attributions": ""
-	}
+	"minimumCoreVersion": "10",
+	"url": "https://github.com/paulcheeba/weather-reports",
+	"manifest": "https://github.com/paulcheeba/weather-reports/releases/latest/download/module.json",
+	"download": "https://github.com/paulcheeba/weather-reports/archive/refs/tags/v0.1.6.zip"
 }
